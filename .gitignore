@@ -1,0 +1,56 @@
+# Python
+# -------------------------------------------------------------------
+# Byte-compiled / optimized / C extensions
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Environments
+venv/
+conda-meta/
+.env
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Project Specific ---
+# -------------------------------------------------------------------
+# Sensitive configuration files - DO NOT COMMIT API KEYS
+# config.yaml
+
+# Local test outputs and artifacts
+data/
+tests/
+scripts/
+.pytest_cache/
+
+# Log files
+*.log
+
+# --- OS Specific ---
+# -------------------------------------------------------------------
+# macOS
+.DS_Store
+._*
+
+# --- IDE Specific ---
+# -------------------------------------------------------------------
+# VS Code
+.vscode/

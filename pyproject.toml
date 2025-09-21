@@ -1,0 +1,28 @@
+[project]
+name = "reframer-pipeline"
+version = "0.1.0"
+description = "An AI pipeline for dynamically reframing landscape video to vertical format."
+readme = "README.md"
+authors = [
+    { name = "Sadegh Bolouki", email = "sadegh.bolouki@gmail.com" },
+]
+license = { text = "MIT" }
+requires-python = ">=3.12"
+dependencies = [
+    "Flask",
+    "awsgi2",
+    "requests",
+    "PyYAML",
+    "pydantic",
+    "langchain",
+    "langchain-core",
+    "langchain-google-genai",
+    "langchain-openai",
+    "opencv-python",
+    "scenedetect",
+    "mediapipe",
+    "scipy"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

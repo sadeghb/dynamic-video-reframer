@@ -1,0 +1,30 @@
+# config/config.yaml
+
+# --- Service Configurations ---
+scene_detector:
+  threshold: 27.0
+
+face_detector:
+  model_selection: 1
+  min_detection_confidence: 0.5
+
+person_detector:
+  model_complexity: 1
+  min_detection_confidence: 0.5
+
+face_tracking:
+  distance_threshold_factor: 0.9
+  min_persistence_ratio: 0.4
+
+person_tracking:
+  distance_threshold_factor: 0.7
+  min_persistence_ratio: 0.4
+
+# --- Pipeline Control ---
+scouting:
+  min_samples: 5
+  max_samples: 20
+  sample_frequency: 1.0
+
+output:
+  modes: ['fixed', 'dynamic']
